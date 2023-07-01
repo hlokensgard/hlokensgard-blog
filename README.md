@@ -1,2 +1,2 @@
 # hlokensgard-blog
-Contains the examples used in the blog location at hlokensgard.no
+Contains the examples used in the blog located at hlokensgard.no
