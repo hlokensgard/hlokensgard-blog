@@ -3,11 +3,6 @@ provider "azurerm" {
   features {}
 }
 
-provider "azurerm" {
-  subscription_id = var.spoke_subscription_id
-  alias           = "spoke"
-  features {}
-}
 # Creating the resource group for the private dns resolver
 resource "azurerm_resource_group" "private_dns_resolver" {
   name     = "private-dns-resolver-rg"

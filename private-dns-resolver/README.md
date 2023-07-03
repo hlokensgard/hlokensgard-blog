@@ -53,7 +53,6 @@ No modules.
 | <a name="input_location"></a> [location](#input\_location) | The location of the resources | `string` | n/a | yes |
 | <a name="input_private_dns_resolver_inbound_address_prefixes"></a> [private\_dns\_resolver\_inbound\_address\_prefixes](#input\_private\_dns\_resolver\_inbound\_address\_prefixes) | Value of the address prefixes for the private dns resolver inbound subnet | `list(string)` | n/a | yes |
 | <a name="input_private_dns_resolver_outbound_address_prefixes"></a> [private\_dns\_resolver\_outbound\_address\_prefixes](#input\_private\_dns\_resolver\_outbound\_address\_prefixes) | Value of the address prefixes for the private dns resolver outbound subnet | `list(string)` | n/a | yes |
-| <a name="input_spoke_subscription_id"></a> [spoke\_subscription\_id](#input\_spoke\_subscription\_id) | The subscription id for the spoke subscription | `string` | n/a | yes |
 | <a name="input_spoke_virtual_network_name"></a> [spoke\_virtual\_network\_name](#input\_spoke\_virtual\_network\_name) | The name of the spoke virtual network | `string` | n/a | yes |
 | <a name="input_spoke_virtual_network_resource_group_name"></a> [spoke\_virtual\_network\_resource\_group\_name](#input\_spoke\_virtual\_network\_resource\_group\_name) | The name of the spoke virtual network resource group | `string` | n/a | yes |
 | <a name="input_subscription_id_connectivity"></a> [subscription\_id\_connectivity](#input\_subscription\_id\_connectivity) | The subscription id for the connectivity subscription | `string` | n/a | yes |

@@ -28,11 +28,6 @@ variable "spoke_virtual_network_resource_group_name" {
   type        = string
 }
 
-variable "spoke_subscription_id" {
-  description = "The subscription id for the spoke subscription"
-  type        = string
-}
-
 variable "hub_firewall_name" {
   description = "The name of the hub firewall"
   type        = string
